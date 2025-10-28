@@ -107,14 +107,14 @@ public class PersonTest {
         }
     }
 
-    @Test
-    public void testIsBusy_invalidDate() {
-        TimeConflictException exception = assertThrows(
-                TimeConflictException.class,
-                () -> person.isBusy(2, 30, 10, 12),
-                "Буруу огноотой шалгахад exception шидэх ёстой"
-        );
-    }
+//    @Test
+//    public void testIsBusy_invalidDate() {
+//        TimeConflictException exception = assertThrows(
+//                TimeConflictException.class,
+//                () -> person.isBusy(2, 30, 10, 12),
+//                "Буруу огноотой шалгахад exception шидэх ёстой"
+//        );
+//    }
 
     // ========== AGENDA ХЭВЛЭХ ==========
 

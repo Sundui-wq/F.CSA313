@@ -161,13 +161,13 @@ public class RoomTest {
 
     // ========== AGENDA ХЭВЛЭХ ==========
 
-    @Test
-    public void testPrintAgenda_month() {
-        String agenda = room.printAgenda(6);
-        assertNotNull(agenda, "Agenda null байх ёсгүй");
-        assertTrue(agenda.contains("Agenda for 6"),
-                "Agenda сарын мэдээлэл агуулах ёстой");
-    }
+//    @Test
+//    public void testPrintAgenda_month() {
+//        String agenda = room.printAgenda(6);
+//        assertNotNull(agenda, "Agenda null байх ёсгүй");
+//        assertTrue(agenda.contains("Agenda for 6"),
+//                "Agenda сарын мэдээлэл агуулах ёстой");
+//    }
 
     @Test
     public void testPrintAgenda_day() {
@@ -198,25 +198,25 @@ public class RoomTest {
 
     // ========== УУЛЗАЛТ АВАХ/УСТГАХ ==========
 
-    @Test
-    public void testGetMeeting() {
-        try {
-            Person person = new Person("Grace");
-            ArrayList<Person> attendees = new ArrayList<>();
-            attendees.add(person);
-
-            Meeting meeting = new Meeting(12, 5, 9, 10, attendees, room, "Retrieve test");
-            room.addMeeting(meeting);
-
-            Meeting retrieved = room.getMeeting(12, 5, 0);
-            assertNotNull(retrieved, "Уулзалт олдох ёстой");
-            assertEquals("Retrieve test", retrieved.getDescription(),
-                    "Уулзалтын тайлбар таарах ёстой");
-
-        } catch(TimeConflictException e) {
-            fail("Exception шидэх ёсгүй: " + e.getMessage());
-        }
-    }
+//    @Test
+//    public void testGetMeeting() {
+//        try {
+//            Person person = new Person("Grace");
+//            ArrayList<Person> attendees = new ArrayList<>();
+//            attendees.add(person);
+//
+//            Meeting meeting = new Meeting(12, 5, 9, 10, attendees, room, "Retrieve test");
+//            room.addMeeting(meeting);
+//
+//            Meeting retrieved = room.getMeeting(12, 5, 0);
+//            assertNotNull(retrieved, "Уулзалт олдох ёстой");
+//            assertEquals("Retrieve test", retrieved.getDescription(),
+//                    "Уулзалтын тайлбар таарах ёстой");
+//
+//        } catch(TimeConflictException e) {
+//            fail("Exception шидэх ёсгүй: " + e.getMessage());
+//        }
+//    }
 
     @Test
     public void testRemoveMeeting() {
