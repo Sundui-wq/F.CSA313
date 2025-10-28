@@ -1,4 +1,0 @@
-Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
-parliament.mn,560,31119,1579,345279,29789.18,1.25%,0.75639,210.25,0.17,284637.8
-mongolia.gov.mn,560,88044,772,356608,66635.76,0.36%,0.75724,141.11,0.09,190821.1
-TOTAL,1120,59582,772,356608,58940.3,0.80%,1.5112,350.84,0.26,237729.4
