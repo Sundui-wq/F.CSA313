@@ -16,14 +16,13 @@
 ### Нийт статистик
 | Класс            | Тестийн тоо | Амжилттай тохиолдол | Алдаатай тохиолдол |
 |------------------|-------------|---------------------|--------------------|
-|  CalendarTest    | 40+         | 8                   | 32+                |
-| PersonTest       | 15+         | 7                   | 8                  |
-| RoomTest         | 16+         | 8                   | 8                  |
+|  CalendarTest    | 24+         | 8                   | 16+                |
+| PersonTest       | 10+         | 7                   | 3                  |
+| RoomTest         | 13+         | 8                   | 5                  |
 | OrganizationTest | 18+         | 10                  | 8                  |
 | MeetingTest      | 25+         | 25                  | 0                  |
-| **НИЙТ**         | **110+**    | **58**              | **52+**            |
 
-### CalendarTest (40+ тест)
+### CalendarTest (24+ тест)
 #### Амжилттай тохиолдлууд:
 1.  `testAddMeeting_validMeeting` - Зөв огноо цагт уулзалт нэмэх
 2.  `testAddMeeting_holiday` - Баярын өдөр нэмэх
@@ -35,12 +34,6 @@
 8.  `testRemoveMeeting` - Уулзалт устгах
 
 #### Алдаатай тохиолдлууд:
-9.  `testAddMeeting_february30` - 2-р сарын 30
-10.  `testAddMeeting_february31` - 2-р сарын 31
-11.  `testAddMeeting_april31` - 4-р сарын 31
-12.  `testAddMeeting_june31` - 6-р сарын 31
-13.  `testAddMeeting_september31` - 9-р сарын 31
-14.  `testAddMeeting_november31` - 11-р сарын 31
 15.  `testCheckTimes_invalidMonth0` - 0-р сар
 16.  `testCheckTimes_invalidMonth13` - 13-р сар
 17.  `testCheckTimes_negativeMonth` - Сөрөг сар
@@ -58,7 +51,7 @@
 29.  `testAddMeeting_startTimeOverlap` - Эхлэх цаг давхцах
 30.  `testAddMeeting_endTimeOverlap` - Дуусах цаг давхцах
 
-### PersonTest (15+ тест)
+### PersonTest (10+ тест)
 #### Амжилттай тохиолдлууд:
 1.  `testPersonConstructor` - Person үүсгэх
 2.  `testPersonDefaultConstructor` - Default constructor
@@ -70,11 +63,10 @@
 
 #### Алдаатай тохиолдлууд:
 8.  `testAddMeeting_conflictThrowsException` - Давхцал
-9.  `testIsBusy_invalidDate` - Буруу огноо
 10.  `testGetMeeting` - Уулзалт авах
 11.  `testRemoveMeeting` - Уулзалт устгах
 
-### RoomTest (16+ тест)
+### RoomTest (13+ тест)
 Үүнтэй төстэй PersonTest-той (өрөө болон хүний календарь ижил логиктой)
 
 ### OrganizationTest (18+ тест)

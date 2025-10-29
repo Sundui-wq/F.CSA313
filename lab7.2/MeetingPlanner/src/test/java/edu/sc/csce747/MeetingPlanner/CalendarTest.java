@@ -69,74 +69,7 @@ public class CalendarTest {
 				"Agenda өдрийн мэдээлэл агуулах ёстой");
 	}
 
-	// ========== БУРУУ ОГНОО ТОХИОЛДЛУУД ==========
 
-//	@Test
-//	public void testAddMeeting_february30() {
-//		Meeting meeting = new Meeting(2, 30, 10, 12);
-//		meeting.setDescription("Invalid date");
-//
-//		TimeConflictException exception = assertThrows(
-//				TimeConflictException.class,
-//				() -> calendar.addMeeting(meeting),
-//				"2-р сарын 30-ны өдөр байхгүй, exception шидэх ёстой"
-//		);
-//
-//		assertTrue(exception.getMessage().contains("Overlap") ||
-//						exception.getMessage().contains("Day does not exist"),
-//				"Алдааны мессеж буруу өдрийн тухай байх ёстой");
-//	}
-
-//	@Test
-//	public void testAddMeeting_february31() {
-//		Meeting meeting = new Meeting(2, 31, 10, 12);
-//		meeting.setDescription("Invalid date");
-//
-//		assertThrows(TimeConflictException.class,
-//				() -> calendar.addMeeting(meeting),
-//				"2-р сарын 31-ны өдөр байхгүй, exception шидэх ёстой");
-//	}
-
-//	@Test
-//	public void testAddMeeting_april31() {
-//		Meeting meeting = new Meeting(4, 31, 10, 12);
-//		meeting.setDescription("Invalid date");
-//
-//		assertThrows(TimeConflictException.class,
-//				() -> calendar.addMeeting(meeting),
-//				"4-р сарын 31-ны өдөр байхгүй, exception шидэх ёстой");
-//	}
-
-//	@Test
-//	public void testAddMeeting_june31() {
-//		Meeting meeting = new Meeting(6, 31, 10, 12);
-//		meeting.setDescription("Invalid date");
-//
-//		assertThrows(TimeConflictException.class,
-//				() -> calendar.addMeeting(meeting),
-//				"6-р сарын 31-ны өдөр байхгүй, exception шидэх ёстой");
-//	}
-
-//	@Test
-//	public void testAddMeeting_september31() {
-//		Meeting meeting = new Meeting(9, 31, 10, 12);
-//		meeting.setDescription("Invalid date");
-//
-//		assertThrows(TimeConflictException.class,
-//				() -> calendar.addMeeting(meeting),
-//				"9-р сарын 31-ны өдөр байхгүй, exception шидэх ёстой");
-//	}
-
-//	@Test
-//	public void testAddMeeting_november31() {
-//		Meeting meeting = new Meeting(11, 31, 10, 12);
-//		meeting.setDescription("Invalid date");
-//
-//		assertThrows(TimeConflictException.class,
-//				() -> calendar.addMeeting(meeting),
-//				"11-р сарын 31-ны өдөр байхгүй, exception шидэх ёстой");
-//	}
-//
 	// ========== БУРУУ САР ТОХИОЛДЛУУД ==========
 
 	@Test
