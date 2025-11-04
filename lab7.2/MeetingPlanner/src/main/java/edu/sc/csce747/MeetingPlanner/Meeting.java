@@ -100,14 +100,16 @@ public class Meeting {
 	 * @return String - Information about the meeting.
 	 */
 	public String toString(){
-		String info=month+"/"+day+", "+start+" - "+end+","+room.getID()+": "+description+"\nAttending: ";
-		
-		for(Person attendee : attendees){
-			info=info+attendee.getName()+",";
+		String roomID = (room != null) ? room.getID() : "";
+		String info = month+"/"+day+", "+start+" - "+end+"," + roomID + ": "+description+"\nAttending: ";
+
+		if(attendees != null && !attendees.isEmpty()) {
+			for(Person attendee : attendees){
+				info = info + attendee.getName() + ",";
+			}
+			info = info.substring(0, info.length()-1);
 		}
-		
-		info=info.substring(0,info.length()-1);
-		
+
 		return info;
 	}
 	

@@ -238,4 +238,45 @@ public class RoomTest {
             fail("Exception шидэх ёсгүй: " + e.getMessage());
         }
     }
+    @Test
+    public void testGetMeeting() {
+        try {
+            Person person = new Person("Test Person");
+            ArrayList<Person> attendees = new ArrayList<>();
+            attendees.add(person);
+
+            Meeting meeting = new Meeting(5, 15, 9, 11, attendees, room, "Test meeting");
+            room.addMeeting(meeting);
+
+            Meeting retrieved = room.getMeeting(5, 15, 0);
+            assertNotNull(retrieved, "Уулзалт олдох ёстой");
+            assertEquals("Test meeting", retrieved.getDescription(),
+                    "Уулзалтын тайлбар таарах ёстой");
+
+        } catch(TimeConflictException e) {
+            fail("Exception шидэх ёсгүй: " + e.getMessage());
+        }
+    }
+
+    @Test
+    public void testPrintAgenda_month() {
+        try {
+            Person person = new Person("Test Person");
+            ArrayList<Person> attendees = new ArrayList<>();
+            attendees.add(person);
+
+            Meeting meeting = new Meeting(6, 15, 10, 12, attendees, room, "Monthly test");
+            room.addMeeting(meeting);
+
+            String agenda = room.printAgenda(6);
+            assertNotNull(agenda, "Agenda null байх ёсгүй");
+            assertTrue(agenda.contains("Agenda for 6"),
+                    "Agenda сарын мэдээлэл агуулах ёстой");
+            assertTrue(agenda.contains("Monthly test"),
+                    "Уулзалтын тайлбар agenda-д байх ёстой");
+
+        } catch(TimeConflictException e) {
+            fail("Exception шидэх ёсгүй: " + e.getMessage());
+        }
+    }
 }
