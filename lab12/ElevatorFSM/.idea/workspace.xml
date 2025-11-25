@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb7782b6-4077-475a-b010-ccbf2a13c72a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../lab10/DataflowTestingLab/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/DataflowTestingLab/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/DataflowTestingLab/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/DataflowTestingLab/DataflowTestingLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/DataflowTestingLab/DataflowTestingLab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/DataflowTestingLab/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/DataflowTestingLab/src/mn/edu/lab/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/DataflowTestingLab/src/mn/edu/lab/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab10/DataflowTestingLab/src/mn/edu/lab/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab10/DataflowTestingLab/src/mn/edu/lab/BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/MeetingPlanner.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/Calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/Meeting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/Organization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/Person.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/PlannerInterface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/Room.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/TimeConflictException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/class-use/Calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/class-use/Meeting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/class-use/Organization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/class-use/Person.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/class-use/PlannerInterface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/class-use/Room.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/class-use/TimeConflictException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/edu/sc/csce747/MeetingPlanner/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/doc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/edu/sc/csce747/MeetingPlanner/Meeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/edu/sc/csce747/MeetingPlanner/Meeting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/edu/sc/csce747/MeetingPlanner/RoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7.2/MeetingPlanner/bin/edu/sc/csce747/MeetingPlanner/RoomTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="35xck46XcC737QI0mwjCjcOY8jE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ElevatorTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "onboarding.tips.debug.path": "E:/4A/F.CSA313/lab 12/ElevatorFSM/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ElevatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="elevator.ElevatorTest" />
+      <module name="ElevatorFSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elevator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ElevatorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb7782b6-4077-475a-b010-ccbf2a13c72a" name="Changes" comment="" />
+      <created>1764055303654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764055303654</updated>
+    </task>
+    <servers />
+  </component>
+</project>
